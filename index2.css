@@ -1,0 +1,81 @@
+body{
+    background-color:rgb(45, 43, 43);
+    color:white;
+    font-family: sans-serif;
+    margin:0;
+    box-sizing: border-box;
+}
+.certificates{
+    align-items: center;
+    height:15vh;
+    background-color:rgb(255, 140, 0);
+    color:black;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    
+}
+.certificates h1{
+    margin:50px;
+    cursor: pointer;
+}
+.row1{
+    margin-left:50px;
+    margin-top:250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row1 a{
+    text-decoration: none;
+}
+.btn{
+    width:450px;
+    height:75px;
+    border:1px solid rgb(255,140,0);
+    color:rgb(255, 140, 0) ;
+    background-color:black;
+    font-size: 24px;
+    border-radius: 14px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition:box-shadow 0.5s ease-out;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: rgb(164, 117, 61) 0px 20px 30px -10px;
+}
+.row2{
+    margin-left:50px;
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row2 a{
+    text-decoration: none;
+}
+
+.row3{
+    margin-left:50px;
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row3 a{
+    text-decoration: none;
+}
+.row4{
+    margin-left:50px;
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row4 a{
+    text-decoration: none;
+}
